@@ -1,0 +1,3 @@
+1- Toplam Portföy Değeri componentinde ve Varlık Dağılımı componentinde hover olmalı, bir verinin üstüne gelince bir kutucukta o veri çıkmalı mesela bir günün üstüne gelince o gün kaç tl değerinde bunu görmeliyiz.
+
+2- varlık listesindeki al sat butonları dark mode a uygun olmalı.
