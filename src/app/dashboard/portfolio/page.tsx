@@ -93,6 +93,12 @@ export default function PortfolioPage() {
   
   // ... (Diğer state'ler aynı)
 
+  const [type, setType] = useState("Hisse Senedi");
+  const [name, setName] = useState("");
+  const [quantity, setQuantity] = useState("");
+  const [avgPrice, setAvgPrice] = useState("");
+  const [date, setDate] = useState("");
+
   useEffect(() => {
       const totalPoints = chartData.length;
       let pointsToShow = 30;
