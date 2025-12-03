@@ -80,7 +80,7 @@ interface SidebarProps {
     version: string;
     user: {
         name: string;
-        email: string;
+        email?: string;
         avatar?: string;
     } | null;
 }
